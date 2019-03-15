@@ -17,12 +17,12 @@ const Config = {
     /**
      * If you can't figure this one out, I don't have high hopes
      */
-    coinName: 'TurtleCoin',
+    coinName: 'Oscillate',
 
     /**
      * Prefix for URI encoded addresses
      */
-    uriPrefix: 'turtlecoin://',
+    uriPrefix: 'oscillate://',
 
     /**
      * How often to save the wallet, in milliseconds
@@ -39,7 +39,7 @@ const Config = {
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
      * In TurtleCoin, this converts to TRTL
      */
-    addressPrefix: 3914525,
+    addressPrefix: 0x271072,
 
     /**
      * Request timeout for daemon operations in milliseconds
@@ -49,7 +49,7 @@ const Config = {
     /**
      * The block time of your coin, in seconds
      */
-    blockTargetTime: 30,
+    blockTargetTime: 60,
 
     /**
      * How often to process blocks, in millseconds
@@ -76,7 +76,7 @@ const Config = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: 'TRTL',
+    ticker: 'OSC',
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -179,7 +179,7 @@ const Config = {
     /**
      * Address to send dev fee to
      */
-    devFeeAddress: 'TRTLv1E3ThL66fHthRHyzPSDqeUazPA9eBQYkuRnp8svKgvdoecQtqhSRaD59CEuH8XnYsw3YGtw1RWsQSqtHLqUXu4tvk9LryR',
+    devFeeAddress: 'hannwNetC1rGg3adBdn855M1o7BFMDZ4hM2CeaZLRChL4LmkLrxbjhtPFCaPJTrjh488fDcnNaiMTKhi53AD3X2KL5LzQsoZbmy',
 
     /**
      * Base url for price API
