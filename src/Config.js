@@ -194,7 +194,7 @@ const Config = {
      * Default daemon to use. Can either be a BlockchainCacheApi(baseURL, SSL),
      * or a ConventionalDaemon(url, port).
      */
-    defaultDaemon: new BlockchainCacheApi('blockapi.turtlepay.io', true),
+    defaultDaemon: new BlockchainCacheApi('74.130.176.161:11246', true),
 
     /**
      * A link to where a bug can be reported for your wallet. Please update
@@ -206,22 +206,22 @@ const Config = {
     /**
      * This only controls the name in the settings screen.
      */
-    appName: 'TonChan',
+    appName: 'OSL-Wallet',
 
     /**
      * Slogan phrase during wallet CreateScreen
      */
-    sloganCreateScreen: 'Fast. Safe. Easy.',
+    sloganCreateScreen: 'Fast. Secure. Easy.',
 
     /**
      * Displayed in the settings screen
      */
-    appVersion: 'v0.0.5',
+    appVersion: 'v0.0.1',
 
     /**
      * Base URL for us to chuck a hash on the end, and find a transaction
      */
-    explorerBaseURL: 'https://explorer.turtlecoin.lol/?search=',
+    explorerBaseURL: 'http://explorer.oscillate.co.in/',
 
     /**
      * A link to your app on the Apple app store. Currently blank because we
@@ -232,7 +232,7 @@ const Config = {
     /**
      * A link to your app on the google play store
      */
-    googlePlayLink: 'https://play.google.com/store/apps/details?id=com.tonchan',
+    googlePlayLink: '#',
 };
 
 module.exports = Config;
